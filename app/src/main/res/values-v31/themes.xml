@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
+
     <style name="Theme.Foursquare" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
@@ -15,10 +16,10 @@
     </style>
 
     <style name="Theme.Foursquare.Splash" parent="Theme.Foursquare">
-        <item name="android:windowBackground">@drawable/splash_drawable</item>
-        <item name="windowSplashScreenBackground">@color/black</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_drawable</item>
-        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenBackground">@color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo_animated</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/branding_drawable</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
         <item name="postSplashScreenTheme">@style/Theme.Foursquare</item>
         <item name="android:statusBarColor">@color/black</item>
         <item name="android:navigationBarColor">@color/black</item>
