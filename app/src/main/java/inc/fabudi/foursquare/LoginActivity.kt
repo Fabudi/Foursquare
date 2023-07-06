@@ -64,6 +64,7 @@ class LoginActivity : AppCompatActivity() {
                     )
                     apply()
                 }
+                startActivity(Intent(this@LoginActivity, MainActivity::class.java))
             }
 
             override fun onFailure(call: Call<OAuthToken>, t: Throwable) {
