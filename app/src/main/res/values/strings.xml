@@ -1,7 +1,36 @@
 <resources>
     <string name="app_name">Foursquare</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_logout">Logout</string>
     <string name="preference_file_key">AUTH_TOKEN</string>
+    <string name="title">Title</string>
+    <string name="type">Type:</string>
+    <string name="address">Address:</string>
+    <string name="tips">Tips</string>
+    <string name="place_icon">Place icon</string>
+    <string name="category">Category</string>
+    <string name="clear">Clear</string>
+    <string-array name="categories_array">
+        <item>Arts and Entertainment</item>
+        <item>Business and Professional Services</item>
+        <item>Community and Government</item>
+        <item>Dining and Drinking</item>
+        <item>Event</item>
+        <item>Health and Medicine</item>
+        <item>Landmarks and Outdoors</item>
+        <item>Retail</item>
+        <item>Sports and Recreation</item>
+        <item>Travel and Transportation</item>
+    </string-array>
+    <string-array name="categories_array_values" translatable="false">
+        <item>10000</item>
+        <item>11000</item>
+        <item>12000</item>
+        <item>13000</item>
+        <item>14000</item>
+        <item>15000</item>
+        <item>16000</item>
+        <item>17000</item>
+        <item>18000</item>
+        <item>19000</item>
+    </string-array>
 </resources>
