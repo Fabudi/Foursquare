@@ -9,8 +9,9 @@
     <string name="place_icon">Place icon</string>
     <string name="category">Category</string>
     <string name="clear">Clear</string>
-    <string name="please_login">Please Login</string>
+    <string name="please_login">Please, login</string>
     <string name="login">Login</string>
+    <string name="details">Details</string>
     <string-array name="categories_array">
         <item>Arts and Entertainment</item>
         <item>Business and Professional Services</item>
@@ -34,5 +35,17 @@
         <item>17000</item>
         <item>18000</item>
         <item>19000</item>
+    </string-array>
+    <string-array name="colors">
+        <item>#ff1744</item>
+        <item>#f50057</item>
+        <item>#d500f9</item>
+        <item>#651fff</item>
+        <item>#2979ff</item>
+        <item>#1de9b6</item>
+        <item>#00e676</item>
+        <item>#c6ff00</item>
+        <item>#ffea00</item>
+        <item>#ff9100</item>
     </string-array>
 </resources>
